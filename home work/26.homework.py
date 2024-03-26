@@ -1,5 +1,5 @@
-def is_even(n):
-    return n & 1 == 0
+def is_even(number):
+    return number & 1 == 0
 
 
 assert is_even(2494563894038**2) == True, 'Test1'
